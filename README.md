@@ -87,7 +87,7 @@ Como puede observarse, el elemento ```img```, el cual se usa para incluir una im
 A continuación, se describen y se ejemplifican algunos de los principales elementos de HTML.
 
 ### Doctype
-[DOCTYPE](https://developer.mozilla.org/en-US/docs/Glossary/Doctype) es una etiqueta que le informa al navegador web cual es la versión HTML de un documento. No es una etiqueta ni un elemento HTML. Más bien es una declaración que le permite al navegador saber como interpretar los elementos HTML que hay en el resto del documento. Se coloca al inicio del documento.
+[```DOCTYPE```](https://developer.mozilla.org/es/docs/Glossary/Doctype) es una etiqueta que le informa al navegador web cual es la versión HTML de un documento. No es una etiqueta ni un elemento HTML. Más bien es una declaración que le permite al navegador saber como interpretar los elementos HTML que hay en el resto del documento. Se coloca al inicio del documento.
 
 La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
 ```html
@@ -95,7 +95,7 @@ La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
 ```
 
 ### html
-El elemento [html](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html) es el elemento raíz de un documento y contiene el resto de los elementos.
+El elemento [```html```](https://developer.mozilla.org/es/docs/Web/HTML/Element/html) es el elemento raíz de un documento y contiene el resto de los elementos.
 
 El siguiente elemento html especifica el lenguaje del documento a través del atributo globlal [```lang```](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/lang).
 ```html
@@ -103,4 +103,15 @@ El siguiente elemento html especifica el lenguaje del documento a través del at
 </html>
 ```
 
+### head
+[```head```](https://developer.mozilla.org/es/docs/Web/HTML/Element/head) contiene los metadatos del documento y otros elementos como su título y referencias a *scripts* y hojas de estilo.
 
+```html
+<head>
+    <meta charset="UTF-8">
+    <title>Título del documento</title>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/scripts.js"></script>        
+</head>
+```
