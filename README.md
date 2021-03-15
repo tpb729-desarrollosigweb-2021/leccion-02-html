@@ -10,7 +10,7 @@ Un documento HTML está compuesto por elementos HTML, como el que muestra en la 
 
 <p>
   <figure>
-    <img src="https://tpb729-desarrollosigweb-2021.github.io/leccion-01-sigweb/img/tim-berners-lee-html.png" alt="Documento HTML">
+    <img src="img/elementohtml.png" alt="Elemento HTML">
     <figcaption>
       <small>
         <strong>Figura 1.</strong> Componentes de un elemento HTML. Fuente: <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">MDN Web Docs</a>.
