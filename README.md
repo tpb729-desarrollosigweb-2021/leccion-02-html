@@ -6,6 +6,7 @@ El HTML especifica la estructura y la semántica de una página web mediante mar
 EL HTML es un estándar del [World Wide Web Consortium (W3C)](https://www.w3.org/), un consorcio internacional creado por Tim Berners-Lee en 1994 que genera recomendaciones y estándares que aseguran el crecimiento de la WWW a largo plazo. La versión más reciente del estándar es [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/) y se caracteriza por incluir soporte para los tipos más recientes de multimedios y reducir la necesidad de plataformas propietarias (ej. Adobe Flash) para su incorporación en páginas web que pueden desplegarse en diferentes tipos de dispositivos y tamaños de pantallas (computadoras, tabletas, teléfonos, pantallas gigantes, etc.).
 
 ## Conceptos básicos
+### Elementos
 Un documento HTML está compuesto por **elementos** HTML, como el que muestra en la figura 1.
 
 <p>
@@ -25,6 +26,7 @@ Los componentes de un elemento HTML son:
 2. <strong>El contenido</strong>: este es el contenido del elemento, que en este caso es solamente texto. También pueden usarse imágenes, hipervínculos, direcciones web u otros elementos HTML.
 3. <strong>La etiqueta de cierre</strong>: es similar que la etiqueta de apertura, pero incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece el final del elemento —en este caso, en dónde termina el párrafo—.
 
+### Atributos
 Los elementos HTML pueden tener **atributos**, como el que se muestra en la figura 2.
 
 <p>
@@ -40,6 +42,9 @@ Los elementos HTML pueden tener **atributos**, como el que se muestra en la figu
   
 Los atributos proporcionan información adicional acerca del elemento, la cual no se despliega en su contenido. Los atributos se especifican en la etiqueta de apertura mediante la sintaxis ```nombre_atributo=valor```. En la figura 2, ```class``` es el nombre del atributo y ```editor-note``` su valor (```class``` es un atributo que permite asociar al elemento con una clase o grupo de elementos, lo que puede ser útil para asignarles de manera conjunta estilos y otras propiedades). Si un elemento tiene varios atributos, deben separarse con (al menos) un espacio en blanco. Si el valor del atributo contiene espacios, debe encerrarse entre comillas (""). Se considera una buena práctica entrecomillar los valores de atributos aunque no contengan espacios, para mejorar la legibilidad.
 
+Cada elemento tiene una lista de atributos que puede usar. Existen [atributos globales](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes), que pueden usarse en todos los elementos.
+
+### Elementos anidados y elementos vacíos
 Un elemento HTML puede contener otros elementos. A estos elementos se les llama **elementos anidados**. Por ejemplo:
 ```html
 <p>Mi gato es muy <strong>gruñón</strong></p>
