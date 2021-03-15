@@ -120,13 +120,10 @@ El siguiente elemento [```html[``` especifica el lenguaje del documento a travé
 El elemento [```meta```](https://developer.mozilla.org/es/docs/Web/HTML/Element/meta) especifica metadatos del documento tales como su autor, descripción, palabras clave y juego de caracteres, entre otros.
 
 ```html
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Manuel Vargas">
-  <meta name="description" content="Curso introductorio de programación">
-  <meta name="keywords" content="Python, programación">
-  <title>Curso de programación en Python</title>
-</head>
+<meta charset="UTF-8">
+<meta name="author" content="Manuel Vargas">
+<meta name="description" content="Curso introductorio de programación">
+<meta name="keywords" content="Python, programación">
 ```
 
 ### title
@@ -135,6 +132,22 @@ El elemento [```title```](https://developer.mozilla.org/es/docs/Web/HTML/Element
 ```html
 <title>Curso de programación en Python</title>
 ```
+
+### link
+[```link```](https://developer.mozilla.org/es/docs/Web/HTML/Element/link) especifica la relación entre el documento actual y un recurso externo, como una hoja de estilos.
+
+Enlace a la hoja de estilos de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
+```html
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+```
+
+### script
+El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) se utiliza para incluir código de algún lenguaje de programación, típicamente JavaScript, aunque también usarse con otros lenguajes y sintaxis (ej. [JSON](https://www.json.org/json-en.html)).
+
+Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
+```html
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
