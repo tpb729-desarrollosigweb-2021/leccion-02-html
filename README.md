@@ -18,3 +18,7 @@ Un documento HTML está compuesto por elementos HTML, como el que muestra en la 
     </figcaption>
   </figure>  
 <p>
+  
+Los componentes de un elemento HTML son:
+
+1. <strong>La etiqueta de apertura</strong>: consiste del nombre del elemento (en este caso, <strong>p</strong>, correspondiente a un párrafo), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece el inicio del elemento —en este caso, dónde es el comienzo del párrafo—.
