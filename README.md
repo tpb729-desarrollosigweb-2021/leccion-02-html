@@ -97,7 +97,7 @@ La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
 ### html
 El elemento [```html```](https://developer.mozilla.org/es/docs/Web/HTML/Element/html) es el elemento raíz de un documento y contiene el resto de los elementos.
 
-El siguiente elemento [```html[``` especifica el lenguaje del documento a través del atributo globlal [```lang```](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/lang).
+El siguiente elemento ```html``` especifica el lenguaje del documento a través del atributo globlal [```lang```](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/lang).
 ```html
 <html lang="es">
 </html>
