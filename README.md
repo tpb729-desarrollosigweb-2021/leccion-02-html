@@ -22,3 +22,18 @@ Un documento HTML está compuesto por elementos HTML, como el que muestra en la 
 Los componentes de un elemento HTML son:
 
 1. <strong>La etiqueta de apertura</strong>: consiste del nombre del elemento (en este caso, <strong>p</strong>, correspondiente a un párrafo), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece el inicio del elemento —en este caso, dónde es el comienzo del párrafo—.
+2. <strong>El contenido</strong>: este es el contenido del elemento, que en este caso es solamente texto. También pueden usarse imágenes, hipervínculos, direcciones web u otros elementos HTML.
+3. <strong>La etiqueta de cierre</strong>: es similar que la etiqueta de apertura, pero incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece el final del elemento —en este caso, en dónde termina el párrafo—.
+
+Los elementos HTML pueden tener atributos, como el que se muestra en la figura 2.
+
+<p>
+  <figure>
+    <img src="img/atributohtml.png" alt="Elemento HTML">
+    <figcaption>
+      <small>
+        <strong>Figura 2.</strong> Ejemplo de atributo en un elemento HTML. Fuente: <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">MDN Web Docs</a>.
+      </small>
+    </figcaption>
+  </figure>  
+<p>
