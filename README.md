@@ -115,3 +115,23 @@ El siguiente elemento [```html[``` especifica el lenguaje del documento a travé
     <script src="js/scripts.js"></script>        
 </head>
 ```
+
+### meta
+El elemento [```meta```](https://developer.mozilla.org/es/docs/Web/HTML/Element/meta) especifica metadatos del documento tales como su autor, descripción, palabras clave y juego de caracteres, entre otros.
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Manuel Vargas">
+  <meta name="description" content="Curso introductorio de programación">
+  <meta name="keywords" content="Python, programación">
+  <title>Curso de programación en Python</title>
+</head>
+```
+
+### title
+El elemento [```title```](https://developer.mozilla.org/es/docs/Web/HTML/Element/title) especifica el título del documento, el cual se muestra en la parte superior de la ventana (o pestaña del navegador). Es un elemento obligatorio de todo documento HTML válido y debe estar ubicado dentro del elemento ```head```.
+
+```html
+<title>Curso de programación en Python</title>
+```
