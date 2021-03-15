@@ -147,7 +147,7 @@ El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
 ```html
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-
+```
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
