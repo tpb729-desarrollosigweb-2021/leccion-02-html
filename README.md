@@ -37,3 +37,5 @@ Los elementos HTML pueden tener atributos, como el que se muestra en la figura 2
     </figcaption>
   </figure>  
 <p>
+  
+Los atributos contienen información adicional acerca del elemento, la cual no se despliega en su contenido. Los atributos se especifican mediante la sintaxis ```nombre_atributo=valor```. En la figura 2, ```class``` es el nombre del atributo y ```editor-note``` su valor. ```class``` es un atributo que permite asociar al elemento con una clase o grupo de elementos, lo que puede ser útil para asignarles de manera conjunta estilos y otras propiedades.
