@@ -139,5 +139,4 @@ El elemento [```title```](https://developer.mozilla.org/es/docs/Web/HTML/Element
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [HTML Tutorial | W3Schools](https://www.w3schools.com/html/)
-
 - [The W3C Markup Validation Service](https://validator.w3.org/)
