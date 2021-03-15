@@ -86,7 +86,7 @@ Como puede observarse, el elemento ```img```, el cual se usa para incluir una im
 ## Principales elementos
 A continuación, se describen y se ejemplifican algunos de los principales elementos de HTML.
 
-### Doctype
+### DOCTYPE
 [```DOCTYPE```](https://developer.mozilla.org/es/docs/Glossary/Doctype) es una etiqueta que le informa al navegador web cual es la versión HTML de un documento. No es una etiqueta ni un elemento HTML. Más bien es una declaración que le permite al navegador saber como interpretar los elementos HTML que hay en el resto del documento. Se coloca al inicio del documento.
 
 La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
