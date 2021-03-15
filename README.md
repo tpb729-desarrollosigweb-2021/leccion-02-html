@@ -5,6 +5,21 @@ El HTML especifica la estructura y la semántica de una página web mediante mar
 
 EL HTML es un estándar del [World Wide Web Consortium (W3C)](https://www.w3.org/), un consorcio internacional creado por Tim Berners-Lee en 1994 que genera recomendaciones y estándares que aseguran el crecimiento de la WWW a largo plazo. La versión más reciente del estándar es [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/) y se caracteriza por incluir soporte para los tipos más recientes de multimedios y reducir la necesidad de plataformas propietarias (ej. Adobe Flash) para su incorporación en páginas web que pueden desplegarse en diferentes tipos de dispositivos y tamaños de pantallas (computadoras, tabletas, teléfonos, pantallas gigantes, etc.).
 
+El siguiente es un ejemplo de un documento HTML, el cual contiene, entre otras, etiquetas que especifican el lenguaje, el título y el cuerpo del documento, además de comentarios (que no son desplegados por el navegador web).
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de documento HTML</title>     
+</head>
+<body>
+    <!-- Comentario -->
+    Contenido de documento HTML.
+</body>
+</html>
+```
+
 ## Conceptos básicos
 ### Elementos
 Un documento HTML está compuesto por **elementos** HTML, como el que muestra en la figura 1.
