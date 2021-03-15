@@ -83,3 +83,7 @@ Algunos elementos no tienen contenido, solamente atributos. Estos elementos se d
 
 Como puede observarse, el elemento ```img```, el cual se usa para incluir una imagen, no tiene una etiqueta de cierre y, por lo tanto, no puede especificar contenido.
 
+## Principales elementos
+A continuación, se describen y se ejemplifican algunos de los principales elementos de HTML.
+
+### Doctype
