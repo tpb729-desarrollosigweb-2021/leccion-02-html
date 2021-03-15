@@ -29,7 +29,7 @@ Los elementos HTML pueden tener **atributos**, como el que se muestra en la figu
 
 <p>
   <figure>
-    <img src="img/atributohtml.png" alt="Elemento HTML">
+    <img src="img/atributohtml.png" alt="Atributo HTML">
     <figcaption>
       <small>
         <strong>Figura 2.</strong> Ejemplo de atributo en un elemento HTML. Fuente: <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">MDN Web Docs</a>.
@@ -40,18 +40,26 @@ Los elementos HTML pueden tener **atributos**, como el que se muestra en la figu
   
 Los atributos proporcionan información adicional acerca del elemento, la cual no se despliega en su contenido. Los atributos se especifican en la etiqueta de apertura mediante la sintaxis ```nombre_atributo=valor```. En la figura 2, ```class``` es el nombre del atributo y ```editor-note``` su valor (```class``` es un atributo que permite asociar al elemento con una clase o grupo de elementos, lo que puede ser útil para asignarles de manera conjunta estilos y otras propiedades). Si un elemento tiene varios atributos, deben separarse con (al menos) un espacio en blanco. Si el valor del atributo contiene espacios, debe encerrarse entre comillas (""). Se considera una buena práctica entrecomillar los valores de atributos aunque no contengan espacios, para mejorar la legibilidad.
 
-Un elemento HTML puede contener otros elementos. Por ejemplo:
+Un elemento HTML puede contener otros elementos. A estos elementos se les llama **elementos anidados**. Por ejemplo:
 ```html
 <p>Mi gato es muy <strong>gruñón</strong></p>
 ```
 
-Para mejorar su legibilidad, el elemento anterior también puede escribirse así:
+El elemento anterior también puede escribirse así:
 ```html
 <p>
     Mi gato es muy <strong>gruñón</strong>
 </p>
 ```
 
-En ambos casos, el resultado es:
+La tabulación es opcional, pero ayuda a mejorar la legibilidad. En ambos casos, el resultado es:
 <p>Mi gato es muy <strong>gruñón</strong></p>
+
+Algunos elementos no tienen contenido, solamente atributos. Estos elementos se denominan **elementos vacíos**. Por ejemplo:
+
+```html
+<img src="img/atributohtml.png" alt="Atributo HTML">
+```
+
+Como puede observarse, el elemento ```img```, el cual se usa para incluir una imagen, no tiene una etiqueta de cierre y, por lo tanto, no puede especificar contenido.
 
