@@ -44,3 +44,14 @@ Un elemento HTML puede contener otros elementos. Por ejemplo:
 ```html
 <p>Mi gato es muy <strong>gruñón</strong></p>
 ```
+
+Para mejorar su legibilidad, el elemento anterior también puede escribirse así:
+```html
+<p>
+    Mi gato es muy <strong>gruñón</strong>
+</p>
+```
+
+En ambos casos, el resultado es:
+<p>Mi gato es muy <strong>gruñón</strong></p>
+
