@@ -100,6 +100,10 @@ El elemento [```html```](https://developer.mozilla.org/es/docs/Web/HTML/Element/
 El siguiente elemento ```html``` especifica el lenguaje del documento a través del atributo globlal [```lang```](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/lang).
 ```html
 <html lang="es">
+    <head>
+    </head>
+    <body>
+    </body>
 </html>
 ```
 
@@ -147,6 +151,15 @@ El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
 ```html
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+```
+
+### body
+[```body```](https://developer.mozilla.org/es/docs/Web/HTML/Element/body) especifica el contenido principal del documento (texto, multimedia, hipervínculos, etc.).
+
+```html
+<body>
+  <a href="https://www.python.org/">Python</a> es un lenguaje de programación creado por Guido van Rossum.
+</body>
 ```
 
 ## Recursos adicionales
