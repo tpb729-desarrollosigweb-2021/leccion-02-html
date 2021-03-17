@@ -55,7 +55,7 @@ Los elementos HTML pueden tener **atributos**, como el que se muestra en la figu
   </figure>  
 <p>
   
-Los atributos proporcionan información adicional acerca del elemento, la cual no se despliega en su contenido. Los atributos se especifican en la etiqueta de apertura mediante la sintaxis ```nombre_atributo=valor```. En la figura 2, ```class``` es el nombre del atributo y ```editor-note``` su valor (```class``` es un atributo que permite asociar al elemento con una clase o grupo de elementos, lo que puede ser útil para asignarles de manera conjunta estilos y otras propiedades). Si un elemento tiene varios atributos, deben separarse con (al menos) un espacio en blanco. Si el valor del atributo contiene espacios, debe encerrarse entre comillas (""). Se considera una buena práctica entrecomillar los valores de atributos aunque no contengan espacios, para mejorar la legibilidad.
+Los atributos proporcionan información adicional acerca del elemento, la cual no se despliega en su contenido. Los atributos se especifican en la etiqueta de apertura mediante la sintaxis ```nombre_atributo=valor```. En la figura 2, ```class``` es el nombre del atributo y ```editor-note``` su valor (```class``` es un atributo que permite asociar al elemento con una clase o grupo de elementos, lo que puede ser útil para asignarles de manera conjunta estilos y otras propiedades). Si un elemento tiene varios atributos, deben separarse con (al menos) un espacio en blanco. Si el valor del atributo contiene espacios, debe encerrarse entre comillas dobles ("") o simples (''). Se considera una buena práctica entrecomillar los valores de atributos aunque no contengan espacios, para mejorar la legibilidad.
 
 Cada elemento tiene una lista de atributos que puede usar. Existen [atributos globales](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes), que pueden usarse en todos los elementos.
 
@@ -82,6 +82,14 @@ Algunos elementos no tienen contenido, solamente atributos. Estos elementos se d
 ```
 
 Como puede observarse, el elemento ```img```, el cual se usa para incluir una imagen, no tiene una etiqueta de cierre y, por lo tanto, no puede especificar contenido.
+
+### Comentarios
+Las etiquetas ```<!--``` y ```-->``` marcan el inicio y el final de cadenas de caracteres que no son interpretadas como código HTML por los navegadores web y, por lo tanto, no se despliegan. Estos "comentarios" pueden ser utilizados para explicar la lógica del documento HTML o realizar cualquier tipo de anotación. Como en el caso de los comentarios de los lenguajes de programación, se recomienda utilizar comentarios en HTML para facilitar la comprensión del código.
+
+```html
+<!-- Esto es un comentario -->
+<p>Esto es un párrafo.</p>
+```
 
 ## Principales elementos
 A continuación, se describen y se ejemplifican algunos de los principales elementos de HTML.
