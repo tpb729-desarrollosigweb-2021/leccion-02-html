@@ -158,7 +158,7 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 
 ```html
 <body>
-  <a href="https://www.python.org/">Python</a> es un lenguaje de programación creado por Guido van Rossum.
+    <a href="https://www.python.org/">Python</a> es un lenguaje de programación creado por Guido van Rossum.
 </body>
 ```
 
@@ -167,12 +167,23 @@ El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) 
 
 ```html
 <body>
-  <p>Python es un lenguaje de programación de propósito general ...</p>
-  <p>Fue creado en 1989 por Guido van Rossum...</p>
+    <p>Python es un lenguaje de programación de propósito general ...</p>
+    <p>Fue creado en 1989 por Guido van Rossum...</p>
 </body>
 ```
 
+### h1-h6
+Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements) (```h1, h2, h3, h4, h5, h6```) definen encabezados de seis niveles. (```h1``` es el encabezado de mayor nivel (con letras más grandes) y ```h6``` el de menor nivel.
 
+```html
+<h1>El lenguaje Python</h1>
+<h2>Tipos de datos<h2>
+<h3>Numéricos</h3>
+<h3>Textuales</h3>
+<h2>Control de flujo<h2>
+<h3>Condicionales</h3>
+<h3>Ciclos</h3>
+```
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
