@@ -203,13 +203,18 @@ USA
 ```
 
 ### strong
-El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Element/strong) se utiliza para denotar la importancia de una parte del texto. Los navegadores acostumbran usar letra en negrita para implementar este elemento.
+El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Element/strong) se utiliza para denotar la importancia de una parte del texto. Los navegadores acostumbran usar letra en negrita para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en negrita. Para eso, se recomienda emplear la propiedad [```font-weight```](https://developer.mozilla.org/es/docs/Web/CSS/font-weight) de CSS.
 
-<p>
-    "... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>".
-</p>
+```html
+<p>"... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>."</p>
+```
 
+### em
+[```em```](https://developer.mozilla.org/es/docs/Web/HTML/Element/em) marca un fragmento de texto al que se se da un énfasis particular. Puede utilizarse de forma anidada, con cada nivel de anidamiento indicando un mayor grado de énfasis. Los navegadores acostumbran usar letra en itálica para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en itálica. Para eso, se recomienda emplear la propiedad [```font-style```](https://developer.mozilla.org/es/docs/Web/CSS/font-style) de CSS.
 
+```html
+<p>Tenemos que <em>hacer</em> algo al respecto.</p>
+```
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
