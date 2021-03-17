@@ -162,6 +162,18 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 </body>
 ```
 
+### p
+El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) define un párrafo (i.e. texto o elementos HTML delimitados por líneas en blanco al principio y al final). La etiqueta de cierre es opcional. Una etiqueta ```<p>``` sola genera una línea en blanco.
+
+```html
+<body>
+  <p>Python es un lenguaje de programación de propósito general ...</p>
+  <p>Fue creado en 1989 por Guido van Rossum...</p>
+</body>
+```
+
+
+
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [HTML Tutorial | W3Schools](https://www.w3schools.com/html/)
