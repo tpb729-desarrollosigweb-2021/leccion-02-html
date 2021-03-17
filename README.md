@@ -170,14 +170,6 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 </body>
 ```
 
-### p
-El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) define un párrafo (i.e. texto o elementos HTML delimitados por líneas en blanco al principio y al final). La etiqueta de cierre es opcional. Una etiqueta ```<p>``` sola genera una línea en blanco.
-
-```html
-<p>Python es un lenguaje de programación de propósito general ...</p>
-<p>Fue creado en 1989 por Guido van Rossum...</p>
-```
-
 ### h1-h6
 Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements) (```h1, h2, h3, h4, h5, h6```) definen encabezados de seis niveles. ```h1``` es el encabezado de mayor nivel (con letras más grandes) y ```h6``` el de menor nivel.
 
@@ -190,6 +182,26 @@ Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Eleme
 <h3>Condicionales</h3>
 <h3>Ciclos</h3>
 ```
+
+### p
+El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) define un párrafo (i.e. texto o elementos HTML delimitados por líneas en blanco al principio y al final). La etiqueta de cierre es opcional. Una etiqueta ```<p>``` sola genera una línea en blanco.
+
+```html
+<p>Python es un lenguaje de programación de propósito general ...</p>
+<p>Fue creado en 1989 por Guido van Rossum...</p>
+```
+
+### br
+[```br```](https://developer.mozilla.org/es/docs/Web/HTML/Element/br) genera un salto de línea (o "retorno de carro") en el documento. No debe usarse para incrementar el espacio entre los parrafos. Para eso se recomienda el elemento ```p``` o CSS.
+
+```html
+Mozilla Foundation<br>
+1981 Landings Drive<br>
+Building K<br>
+Mountain View, CA 94043-0801<br>
+USA
+```
+
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
