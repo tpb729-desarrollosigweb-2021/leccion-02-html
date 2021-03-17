@@ -209,11 +209,22 @@ El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Elemen
 <p>"... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>."</p>
 ```
 
+Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
+
 ### em
 [```em```](https://developer.mozilla.org/es/docs/Web/HTML/Element/em) marca un fragmento de texto al que se se da un énfasis particular. Puede utilizarse de forma anidada, con cada nivel de anidamiento indicando un mayor grado de énfasis. Los navegadores acostumbran usar letra en itálica para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en itálica. Para eso, se recomienda emplear la propiedad [```font-style```](https://developer.mozilla.org/es/docs/Web/CSS/font-style) de CSS.
 
 ```html
 <p>Tenemos que <em>hacer</em> algo al respecto.</p>
+```
+
+Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
+
+### a
+El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) (*anchor* o ancla) crea un hipervínculo a otro documento HTML, a un archivo, a una dirección de email o a cualquier otro tipo de URL [(*Uniform Resource Locator* o localizador de recursos uniforme)](https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme). El atributo ```href``` especifica el URL. El contenido del elemento especifica el texto que se le muestra al usuario en el enlace.
+
+```html
+<a href="https://www.python.org/">El lenguaje de programación Python</a>
 ```
 
 ## Recursos adicionales
