@@ -95,7 +95,7 @@ Las etiquetas ```<!--``` y ```-->``` marcan el inicio y el final de cadenas de c
 A continuación, se describen y se ejemplifican algunos de los principales elementos de HTML.
 
 ### DOCTYPE
-[```DOCTYPE```](https://developer.mozilla.org/es/docs/Glossary/Doctype) es una etiqueta que le informa al navegador web cual es la versión HTML de un documento. No es una etiqueta ni un elemento HTML. Más bien es una declaración que le permite al navegador saber como interpretar los elementos HTML que hay en el resto del documento. Se coloca al inicio del documento.
+[```DOCTYPE```](https://developer.mozilla.org/es/docs/Glossary/Doctype) (tipo de documento) es una etiqueta que le informa al navegador web cual es la versión HTML de un documento. No es una etiqueta ni un elemento HTML. Más bien es una declaración que le permite al navegador saber como interpretar los elementos HTML que hay en el resto del documento. Se coloca al inicio del documento.
 
 La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
 ```html
@@ -116,7 +116,7 @@ El siguiente elemento ```html``` especifica el lenguaje del documento a través 
 ```
 
 ### head
-[```head```](https://developer.mozilla.org/es/docs/Web/HTML/Element/head) contiene los metadatos del documento y otros elementos como su título y referencias a *scripts* y hojas de estilo.
+El elemento [```head```](https://developer.mozilla.org/es/docs/Web/HTML/Element/head) contiene los metadatos del documento y otros elementos como su título y referencias a *scripts* y hojas de estilo (CSS).
 
 ```html
 <head>
@@ -171,7 +171,7 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 ```
 
 ### h1-h6
-Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements) (```h1, h2, h3, h4, h5, h6```) definen encabezados de seis niveles. ```h1``` es el encabezado de mayor nivel (con letras más grandes) y ```h6``` el de menor nivel.
+Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements) (```h1, h2, h3, h4, h5, h6```) definen encabezados (*headings*) de seis niveles. ```h1``` es el encabezado de mayor nivel (con letras más grandes) y ```h6``` el de menor nivel.
 
 ```html
 <h1>El lenguaje Python</h1>
@@ -192,7 +192,7 @@ El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) 
 ```
 
 ### br
-[```br```](https://developer.mozilla.org/es/docs/Web/HTML/Element/br) genera un salto de línea (o "retorno de carro") en el documento. No debe usarse para incrementar el espacio entre los parrafos. Para eso se recomienda el elemento ```p``` o CSS.
+El elemento [```br```](https://developer.mozilla.org/es/docs/Web/HTML/Element/br) (*line break*) genera un salto de línea (o "retorno de carro") en el documento. No debe usarse para incrementar el espacio entre los parrafos. Para eso se recomienda utilizar el elemento ```p``` u hojas de estilo.
 
 ```html
 Mozilla Foundation<br>
@@ -201,6 +201,14 @@ Building K<br>
 Mountain View, CA 94043-0801<br>
 USA
 ```
+
+### strong
+El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Element/strong) se utiliza para denotar la importancia de una parte del texto. Los navegadores acostumbran usar letra en negrita para implementar este elemento.
+
+<p>
+    "... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>".
+</p>
+
 
 
 ## Recursos adicionales
