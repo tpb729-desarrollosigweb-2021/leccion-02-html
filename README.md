@@ -182,6 +182,14 @@ Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Eleme
 <h3>Condicionales</h3>
 <h3>Ciclos</h3>
 ```
+Se visualiza así:
+<h1>El lenguaje Python</h1>
+<h2>Tipos de datos<h2>
+<h3>Numéricos</h3>
+<h3>Textuales</h3>
+<h2>Control de flujo<h2>
+<h3>Condicionales</h3>
+<h3>Ciclos</h3>
 
 ### p
 El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) define un párrafo (i.e. texto o elementos HTML delimitados por líneas en blanco al principio y al final). La etiqueta de cierre es opcional. Una etiqueta ```<p>``` sola genera una línea en blanco.
@@ -190,6 +198,9 @@ El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) 
 <p>Python es un lenguaje de programación de propósito general ...</p>
 <p>Fue creado en 1989 por Guido van Rossum...</p>
 ```
+Se visualiza así:
+<p>Python es un lenguaje de programación de propósito general ...</p>
+<p>Fue creado en 1989 por Guido van Rossum...</p>
 
 ### br
 El elemento [```br```](https://developer.mozilla.org/es/docs/Web/HTML/Element/br) (*line break*) genera un salto de línea (o "retorno de carro") en el documento. No debe usarse para incrementar el espacio entre los parrafos. Para eso se recomienda utilizar el elemento ```p``` u hojas de estilo.
@@ -201,6 +212,12 @@ Building K<br>
 Mountain View, CA 94043-0801<br>
 USA
 ```
+Se visualiza así:
+Mozilla Foundation<br>
+1981 Landings Drive<br>
+Building K<br>
+Mountain View, CA 94043-0801<br>
+USA
 
 ### strong
 El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Element/strong) se utiliza para denotar la importancia de una parte del texto. Los navegadores acostumbran usar letra en negrita para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en negrita. Para eso, se recomienda emplear la propiedad [```font-weight```](https://developer.mozilla.org/es/docs/Web/CSS/font-weight) de CSS.
@@ -208,6 +225,8 @@ El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Elemen
 ```html
 <p>"... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>."</p>
 ```
+Se visualiza así:
+<p>"... the most important rule, the rule you can never forget, no matter how much he cries, no matter how much he begs: <strong>never feed him after midnight</strong>."</p>
 
 Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
 
@@ -217,6 +236,8 @@ Los elementos semánticos (i.e que pretenden transmitir un significado) como ```
 ```html
 <p>Tenemos que <em>hacer</em> algo al respecto.</p>
 ```
+Se visualiza así:
+<p>Tenemos que <em>hacer</em> algo al respecto.</p>
 
 Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
 
@@ -226,13 +247,17 @@ El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) 
 ```html
 <a href="https://www.python.org/">El lenguaje de programación Python</a>
 ```
+Se visualiza así:
+<a href="https://www.python.org/">El lenguaje de programación Python</a>
 
 ### img
-El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen.
+El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen. Los atributos ```height``` y ```width``` especifican la altura y el ancho de la imagen,
 
 ```html
-<img src="img/python-logo.png" alt="Logo de Python">
+<img src="img/python-logo.png" alt="Logo de Python" height="100">
 ```
+Se visualiza así:
+<img src="img/python-logo.png" alt="Logo de Python" height="100">
 
 ### ul
 [```ul```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ul) define una lista **no ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
