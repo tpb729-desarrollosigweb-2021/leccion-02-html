@@ -245,6 +245,13 @@ El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/i
     <li>Arroz</li>
 </ul>
 ```
+Se visualiza así:
+<ul>
+    <li>Azúcar</li>
+    <li>Harina</li>
+    <li>Limones</li>
+    <li>Arroz</li>
+</ul>
 
 ### ol
 [```ol```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol) define una lista **ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
@@ -257,6 +264,13 @@ El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/i
     <li>Arroz</li>
 </ol>
 ```
+Se visualiza así:
+<ol>
+    <li>Azúcar</li>
+    <li>Harina</li>
+    <li>Limones</li>
+    <li>Arroz</li>
+</ol>
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
