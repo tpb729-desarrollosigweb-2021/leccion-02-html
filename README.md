@@ -348,15 +348,6 @@ En el ejemplo siguiente, ```div``` se emplea para asignar colores diferentes a d
     <p>Esta sección tiene fondo verde.</p>
 </div>
 ```
-Se visualiza así:
-<div style="background-color:#F00;">
-    <h1>Sección roja</h1>
-    <p>Esta sección tiene fondo rojo.</p>
-</div>
-<div style="background-color:#0F0;">
-    <h1>Sección verde</h1>
-    <p>Esta sección tiene fondo verde.</p>
-</div>
 
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
