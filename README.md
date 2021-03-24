@@ -251,12 +251,12 @@ Se visualiza así:
 <a href="https://www.python.org/">El lenguaje de programación Python</a>
 
 ### img
-El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen. Los atributos ```height``` y ```width``` especifican la altura y el ancho de la imagen,
+El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen. Los atributos ```height``` y ```width``` especifican, en pixeles, la altura y el ancho de la imagen respectivamente.
 
 ```html
 <img src="img/python-logo.png" alt="Logo de Python" height="100">
 ```
-Se visualiza así:
+Se visualiza así:  
 <img src="img/python-logo.png" alt="Logo de Python" height="100">
 
 ### ul
