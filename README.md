@@ -298,7 +298,7 @@ Se visualiza así:
 </ol>
 
 ### table
-El elemento [```table```](https://developer.mozilla.org/es/docs/Web/HTML/Element/table) se utiliza para presentar datos en filas y columnas. Los elementos [```thead```](https://developer.mozilla.org/es/docs/Web/HTML/Element/thead) y [```tbody```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tbody) especifican el encabezado y el cuerpo de la tabla, respectivamente. El elemento [```tr```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tr) especifica las filas y [```td```](https://developer.mozilla.org/es/docs/Web/HTML/Element/td) las columnas o las celdas. [```th```](https://developer.mozilla.org/es/docs/Web/HTML/Element/th) se usa en las celdas de los encabezados.
+El elemento [```table```](https://developer.mozilla.org/es/docs/Web/HTML/Element/table) se utiliza para presentar datos en filas y columnas. Los elementos [```thead```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) y [```tbody```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody) especifican el encabezado y el cuerpo de la tabla, respectivamente. El elemento [```tr```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tr) especifica las filas y [```td```](https://developer.mozilla.org/es/docs/Web/HTML/Element/td) las columnas o las celdas. [```th```](https://developer.mozilla.org/es/docs/Web/HTML/Element/th) se usa en las celdas de los encabezados.
 
 ```html
 <table>
