@@ -228,10 +228,34 @@ El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) 
 ```
 
 ### img
-El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) (*anchor* o ancla) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo src especifica el URL de la imagen y el atributo alt una descripción textual de la imagen. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen.
+El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen.
 
 ```html
 <img src="img/python-logo.png" alt="Logo de Python">
+```
+
+### ul
+[```ul```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ul) define una lista **no ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
+
+```html
+<ul>
+    <li>Azúcar</li>
+    <li>Harina</li>
+    <li>Limones</li>
+    <li>Arroz</li>
+</ul>
+```
+
+### ol
+[```ol```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol) define una lista **ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
+
+```html
+<ol>
+    <li>Azúcar</li>
+    <li>Harina</li>
+    <li>Limones</li>
+    <li>Arroz</li>
+</ol>
 ```
 
 ## Recursos adicionales
