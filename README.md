@@ -227,6 +227,13 @@ El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) 
 <a href="https://www.python.org/">El lenguaje de programación Python</a>
 ```
 
+### img
+El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) (*anchor* o ancla) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo src especifica el URL de la imagen y el atributo alt una descripción textual de la imagen. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen.
+
+```html
+<img src="img/python-logo.jpg" alt="Logo de Python">
+```
+
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [HTML Tutorial | W3Schools](https://www.w3schools.com/html/)
