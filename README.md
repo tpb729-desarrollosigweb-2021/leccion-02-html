@@ -102,7 +102,7 @@ La siguiente etiqueta ```DOCTYPE``` especifica que el documento usa HTML5.
 <!DOCTYPE html>
 ```
 
-### html
+### El elemento html
 El elemento [```html```](https://developer.mozilla.org/es/docs/Web/HTML/Element/html) es el elemento raíz de un documento y contiene el resto de los elementos.
 
 El siguiente elemento ```html``` especifica el lenguaje del documento a través del atributo globlal [```lang```](https://developer.mozilla.org/es/docs/Web/HTML/Global_attributes/lang).
@@ -115,7 +115,7 @@ El siguiente elemento ```html``` especifica el lenguaje del documento a través 
 </html>
 ```
 
-### head
+### El elemento head
 El elemento [```head```](https://developer.mozilla.org/es/docs/Web/HTML/Element/head) contiene los metadatos del documento y otros elementos como su título y referencias a *scripts* y hojas de estilo (CSS).
 
 ```html
@@ -128,7 +128,7 @@ El elemento [```head```](https://developer.mozilla.org/es/docs/Web/HTML/Element/
 </head>
 ```
 
-### meta
+### El elemento meta
 El elemento [```meta```](https://developer.mozilla.org/es/docs/Web/HTML/Element/meta) especifica metadatos del documento tales como su autor, descripción, palabras clave y juego de caracteres, entre otros.
 
 ```html
@@ -138,14 +138,14 @@ El elemento [```meta```](https://developer.mozilla.org/es/docs/Web/HTML/Element/
 <meta name="keywords" content="Python, programación">
 ```
 
-### title
+### El elemento title
 El elemento [```title```](https://developer.mozilla.org/es/docs/Web/HTML/Element/title) especifica el título del documento, el cual se muestra en la parte superior de la ventana (o pestaña del navegador). Es un elemento obligatorio de todo documento HTML válido y debe estar ubicado dentro del elemento ```head```.
 
 ```html
 <title>Curso de programación en Python</title>
 ```
 
-### link
+### El elemento link
 [```link```](https://developer.mozilla.org/es/docs/Web/HTML/Element/link) especifica la relación entre el documento actual y un recurso externo, como una hoja de estilos.
 
 Enlace a la hoja de estilos de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
@@ -153,7 +153,7 @@ Enlace a la hoja de estilos de la biblioteca geoespacial [Leaflet](https://leafl
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 ```
 
-### script
+### El elemento script
 El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) se utiliza para incluir código de algún lenguaje de programación, típicamente JavaScript, aunque también usarse con otros lenguajes y sintaxis (ej. [JSON](https://www.json.org/json-en.html)).
 
 Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leafletjs.com/):
@@ -161,7 +161,7 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 ```
 
-### body
+### El elemento body
 [```body```](https://developer.mozilla.org/es/docs/Web/HTML/Element/body) especifica el contenido principal del documento (texto, multimedia, hipervínculos, etc.).
 
 ```html
@@ -170,7 +170,7 @@ Enlace al código JavaScript de la biblioteca geoespacial [Leaflet](https://leaf
 </body>
 ```
 
-### h1-h6
+### Los elementos h1-h6
 Los elementos [```h1-h6```](https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements) (```h1, h2, h3, h4, h5, h6```) definen encabezados (*headings*) de seis niveles. ```h1``` es el encabezado de mayor nivel (con letras más grandes) y ```h6``` el de menor nivel.
 
 ```html
@@ -191,7 +191,7 @@ Se visualiza así:
 <h3>Condicionales</h3>
 <h3>Ciclos</h3>
 
-### p
+### El elemento p
 El elemento [```p```](https://developer.mozilla.org/es/docs/Web/HTML/Element/p) define un párrafo (i.e. texto o elementos HTML delimitados por líneas en blanco al principio y al final). La etiqueta de cierre es opcional. Una etiqueta ```<p>``` sola genera una línea en blanco.
 
 ```html
@@ -202,7 +202,7 @@ Se visualiza así:
 <p>Python es un lenguaje de programación de propósito general ...</p>
 <p>Fue creado en 1989 por Guido van Rossum...</p>
 
-### br
+### El elemento br
 El elemento [```br```](https://developer.mozilla.org/es/docs/Web/HTML/Element/br) (*line break*) genera un salto de línea (o "retorno de carro") en el documento. No debe usarse para incrementar el espacio entre los parrafos. Para eso se recomienda utilizar el elemento ```p``` u hojas de estilo.
 
 ```html
@@ -219,7 +219,7 @@ Building K<br>
 Mountain View, CA 94043-0801<br>
 USA
 
-### strong
+### El elemento strong
 El elemento [```strong```](https://developer.mozilla.org/es/docs/Web/HTML/Element/strong) se utiliza para denotar la importancia de una parte del texto. Los navegadores acostumbran usar letra en negrita para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en negrita. Para eso, se recomienda emplear la propiedad [```font-weight```](https://developer.mozilla.org/es/docs/Web/CSS/font-weight) de CSS.
 
 ```html
@@ -230,7 +230,7 @@ Se visualiza así:
 
 Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
 
-### em
+### El elemento em
 [```em```](https://developer.mozilla.org/es/docs/Web/HTML/Element/em) marca un fragmento de texto al que se se da un énfasis particular. Puede utilizarse de forma anidada, con cada nivel de anidamiento indicando un mayor grado de énfasis. Los navegadores acostumbran usar letra en itálica para implementar este elemento. Sin embargo, no debe utilizarse para simplemente escribir un texto en itálica. Para eso, se recomienda emplear la propiedad [```font-style```](https://developer.mozilla.org/es/docs/Web/CSS/font-style) de CSS.
 
 ```html
@@ -241,7 +241,7 @@ Se visualiza así:
 
 Los elementos semánticos (i.e que pretenden transmitir un significado) como ```strong``` y ```em``` facilitan la comprensión de textos por parte de personas y también programas. Por ejemplo, los [lectores de pantalla](https://es.wikipedia.org/wiki/Lector_de_pantalla) pueden utilizar estos elementos para pronunciar las palabras con mayor fuerza o volumen.
 
-### a
+### El elemento a
 El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) (*anchor* o ancla) crea un hipervínculo a otro documento HTML, a un archivo, a una dirección de email o a cualquier otro tipo de URL [(*Uniform Resource Locator* o localizador de recursos uniforme)](https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme). El atributo ```href``` especifica el URL. El contenido del elemento especifica el texto que se le muestra al usuario en el enlace.
 
 ```html
@@ -250,7 +250,7 @@ El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) 
 Se visualiza así:
 <a href="https://www.python.org/">El lenguaje de programación Python</a>
 
-### img
+### El elemento img
 El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen. Los atributos ```height``` y ```width``` especifican, en pixeles, la altura y el ancho de la imagen respectivamente.
 
 ```html
@@ -259,7 +259,7 @@ El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/i
 Se visualiza así:  
 <img src="img/python-logo.png" alt="Logo de Python" height="100">
 
-### ul
+### El elemento ul
 [```ul```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ul) define una lista **no ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
 
 ```html
@@ -278,7 +278,7 @@ Se visualiza así:
     <li>Arroz</li>
 </ul>
 
-### ol
+### El elemento ol
 [```ol```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol) define una lista **ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
 
 ```html
@@ -297,7 +297,7 @@ Se visualiza así:
     <li>Arroz</li>
 </ol>
 
-### table
+### El elemento table
 El elemento [```table```](https://developer.mozilla.org/es/docs/Web/HTML/Element/table) se utiliza para presentar datos en filas y columnas. Los elementos [```thead```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead) y [```tbody```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody) especifican el encabezado y el cuerpo de la tabla, respectivamente. El elemento [```tr```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tr) especifica las filas y [```td```](https://developer.mozilla.org/es/docs/Web/HTML/Element/td) las columnas o las celdas. [```th```](https://developer.mozilla.org/es/docs/Web/HTML/Element/th) se usa en las celdas de los encabezados.
 
 ```html
@@ -334,7 +334,7 @@ Se visualiza así:
     </tbody>
 </table>
 
-### div
+### El elemento div
 El elemento [```div```](https://developer.mozilla.org/es/docs/Web/HTML/Element/div) se utiliza para definir secciones o agrupar contenidos en un documento.
 
 En el ejemplo siguiente, ```div``` se emplea para asignar colores diferentes a dos partes de un documento:
