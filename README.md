@@ -257,7 +257,7 @@ El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/i
 <img src="img/python-logo.png" alt="Logo de Python" height="100">
 ```
 Se visualiza así:  
-<img src="img/python-logo.png" alt="Logo de Python" height="500">
+<img src="img/python-logo.png" alt="Logo de Python" height="100">
 
 ### ul
 [```ul```](https://developer.mozilla.org/es/docs/Web/HTML/Element/ul) define una lista **no ordenada** cuyos ítems se especifican mediante el elemento [```li```](https://developer.mozilla.org/es/docs/Web/HTML/Element/li) (*list item*).
