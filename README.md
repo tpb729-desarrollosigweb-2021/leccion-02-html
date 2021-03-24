@@ -297,6 +297,43 @@ Se visualiza así:
     <li>Arroz</li>
 </ol>
 
+### table
+El elemento [```table```](https://developer.mozilla.org/es/docs/Web/HTML/Element/table) se utiliza para presentar datos en filas y columnas. Los elementos [```thead```](https://developer.mozilla.org/es/docs/Web/HTML/Element/thead) y [```tbody```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tbody) especifican el encabezado y el cuerpo de la tabla, respectivamente. El elemento [```tr```](https://developer.mozilla.org/es/docs/Web/HTML/Element/tr) especifica las filas y [```td```](https://developer.mozilla.org/es/docs/Web/HTML/Element/td) las columnas o las celdas. [```th```](https://developer.mozilla.org/es/docs/Web/HTML/Element/th) se usa en las celdas de los encabezados.
+
+```html
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Encabezado de la tabla</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fila 1,columna 1</td><td>Fila 1,columna 2</td>
+        </tr>
+        <tr>
+            <td>Fila 2,columna 1</td><td>Fila 2,columna 2</td>
+        </tr>
+    </tbody>
+</table>
+```
+Se visualiza así:
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Encabezado de la tabla</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fila 1,columna 1</td><td>Fila 1,columna 2</td>
+        </tr>
+        <tr>
+            <td>Fila 2,columna 1</td><td>Fila 2,columna 2</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Recursos adicionales
 - [HTML: Lenguaje de marcas de hipertexto | MDN](https://developer.mozilla.org/es/docs/Web/HTML)
 - [HTML Tutorial | W3Schools](https://www.w3schools.com/html/)
