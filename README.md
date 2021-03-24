@@ -231,7 +231,7 @@ El elemento [```a```](https://developer.mozilla.org/es/docs/Web/HTML/Element/a) 
 El elemento [```img```](https://developer.mozilla.org/es/docs/Web/HTML/Element/img) (*anchor* o ancla) inserta una imagen en un documento. Solo usa la etiqueta de apertura. El atributo src especifica el URL de la imagen y el atributo alt una descripción textual de la imagen. El atributo ```src``` especifica el URL de la imagen y el atributo ```alt``` una descripción textual de la imagen.
 
 ```html
-<img src="img/python-logo.jpg" alt="Logo de Python">
+<img src="img/python-logo.png" alt="Logo de Python">
 ```
 
 ## Recursos adicionales
